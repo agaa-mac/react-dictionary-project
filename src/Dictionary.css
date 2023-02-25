@@ -1,1 +1,58 @@
+.Dictionary section {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 50px 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+}
+.Dictionary h1 {
+  color: #004444;
+  font-weight: 700;
+  font-size: 80px;
+}
+.Dictionary h2 {
+  color: #004444;
+  font-weight: 400;
+  font-size: 25px;
+}
 
+.Dictionary .enterAword {
+  width: 40%;
+  padding: 5px 15px;
+  font-weight: 500;
+  opacity: 80%;
+  margin: 20px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.Dictionary .searchAword {
+  padding: 5px 10px;
+  background-color: #f9c333;
+  border: 1px solid #f9c333;
+  border-radius: 5px;
+}
+.Dictionary p {
+  opacity: 80%;
+  color: #004444;
+}
+
+@media (max-width: 700px) {
+  .Dictionary h1 {
+    font-size: 55px;
+  }
+  .Dictionary h2 {
+    font-size: 15px;
+  }
+  .Dictionary .enterAword {
+    font-size: 12px;
+    padding: 5px;
+    padding-right: 0;
+  }
+  .Dictionary .searchAword {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .Dictionary p {
+    font-size: 12px;
+  }
+}
