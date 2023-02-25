@@ -1,0 +1,27 @@
+.Results section {
+  text-align: left;
+  background-color: #ffffff;
+  padding: 25px 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.Results h2 {
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.Results h4 {
+  font-weight: 400;
+}
+@media (max-width: 700px) {
+  .Results section {
+    padding: 15px 20px;
+  }
+  .Results h2 {
+    font-size: 20px;
+  }
+  .Results h4 {
+    font-size: 15px;
+  }
+}
