@@ -4,4 +4,11 @@
 }
 footer {
   margin-top: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+a {
+  color: #f9c333;
+  font-weight: 600;
+  padding: 0 5px;
 }

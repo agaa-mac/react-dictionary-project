@@ -1,0 +1,25 @@
+.Meaning h3 {
+  font-size: 25px;
+}
+.Meaning .definition {
+  color: black;
+  font-size: 19px;
+}
+.Meaning .example {
+  font-size: 15px;
+  color: #004444;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  .Meaning h3 {
+    font-size: 18px;
+  }
+  .Meaning .definition {
+    color: black;
+    font-size: 15px;
+  }
+  .Meaning .example {
+    font-size: 12px;
+    color: #004444;
+  }
+} ;
