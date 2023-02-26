@@ -25,7 +25,7 @@ export default function Dictionary() {
   }
   return (
     <div className="Dictionary">
-      <section>
+      <section className="sectionDictionary">
         <h1>Dictionary</h1>
         <h2>What word would you want to look up?</h2>
 
